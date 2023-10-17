@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinologia</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+    <script src="teste.js"></script>
+</head>
+<body>
+   
+    <h1>Cinologia</h1>
+<h2>O estudo científico dos cães</h2>
+<p>A cinologia tem como objetivo explorar os assuntos relacionados aos cães, como categorizá-los por raça, serventia, origem, fisionomia, desenvolvimento e até mesmo estética.</p>
+<div id="textos">
+<p id="txt01"style="display:none">
+
+        Os cães são nosso aliado desde o começo a civilização, nos servindo com trabalhos variados como na caça, na guarda,
+         com farejo, buscas, resgates e até mesmo de apoio emocional.<br><br>
+
+        Diante disso, criou-se o estudo que se aprofunda neles, os dividindo por categorias, definindo padrões físicos, mentais e temperamentais.<br><br>
+
+  O maior órgão atual que supervisiona essas atividades é a Federação Cinológica Internacional (FCI), mas geralmente cada país tem sua instituição,
+   e no Brasil é a Confederação Brasileira de Cinofilia (CBKC) que eventualmente vem tentando fazer com que raças brasileiras sejam reconhecidas pela FCI como: veadeiro nacional, pastor da mantiqueira, ovelheiro gaúcho e american bully. <br><br>
+
+
+
+   A FCI dividiu os cachorros em 10 grupos tendo como base a origem, a estética e principalmente o trabalho. Os grupos são:<br><br>
+ 
+   Grupo 1- Cães pastores e boiadeiros (exceto boiadeiro suíço).<br><br>
+   
+   Grupo 2- Cães do tipo pinscher e schnauzer, molossóides, cães de montanha e boiadeiro suíço.<br><br>
+   
+   Grupo 3- Terriers.<br><br>
+   
+   Grupo 4- Dachshunds.<br><br>
+   
+   Grupo 5- Cães do tipo Spitz e primitivo.<br><br>
+   
+   Grupo 6- Sabujos farejadores e semelhantes.<br><br>
+   
+   Grupo 7- Cães do tipo pointer (apontadores).<br><br>
+   
+   Grupo 8- Retrievers, recuperadores e cães d'água.<br><br>
+   
+   Grupo 9- Cães de companhia. <br><br>
+   
+   Grupo 10- Galgos.
+    <br><br>
+
+
+      
+      
+</div>
+
+<button type="button" onclick="document.getElementById('txt01').style.display='block'">Saiba mais</button>
+<button type="button" onclick="document.getElementById('txt01').style.display='none'">Ocultar</button>
+
+<div class="swiper-slide"><img src="img/img/Arquitetura.svg" alt="Grupo Cinológicos"></div>
+      
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+
+  <p>grupo 1</p>
+   <div class="swiper-slide"><img src="grupo 1.jpg" width="1000" height="600" alt=""></div>
+    
+  <p>grupo 2</p> 
+   <div class="swiper-slide"><img src="grupo 2.jpg" width="1000" height="600" alt=""></div>
+
+  <p>grupo 3</p>
+   <div class="swiper-slide"><img src="grupo 3.jpg" width="1000" height="600" alt=""></div>
+
+  <p>grupo 4</p>
+   <div class="swiper-slide"><img src="grupo 4.jpg" width="1000" height="600" alt=""></div>
+
+  <p>grupo 5</p>
+   <div class="swiper-slide"><img src="grupo 5.jpg" width="1000" height="600" alt=""></div>
+
+  <p>grupo 6</p>
+   <div class="swiper-slide"><img src="grupo 6.jpg" width="1000" height="600" alt=""></div>
+
+  <p>grupo 7</p>
+   <div class="swiper-slide"><img src="grupo 7.jpg" width="1000" height="600" alt=""></div>
+
+  <p>grupo 8</p>
+   <div class="swiper-slide"><img src="grupo 8.jpg" width="1000" height="600" alt=""></div>
+
+  <p>grupo 9</p>
+   <div class="swiper-slide"><img src="grupo 9.jpg" width="1000" height="600" alt=""></div>
+
+  <p>grupo 10</p>
+   <div class="swiper-slide"><img src="grupo 10.jpg" width="1000" height="600" alt=""></div>
+             
+             <link
+             rel="stylesheet"
+             href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+           />
+          
+             <div class="swiper-slide"><img src="grupo 10.jpg" width="1000" height="600" alt=""></div>
+
+
+
+
+
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
+
+
+
+      </body>
+      
+      </html>
